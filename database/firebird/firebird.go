@@ -6,8 +6,8 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database"
+	"github.com/fun/golang-migrate/migrate/v4"
+	"github.com/fun/golang-migrate/migrate/v4/database"
 	"github.com/hashicorp/go-multierror"
 	_ "github.com/nakagami/firebirdsql"
 	"io"
@@ -136,7 +136,7 @@ func (f *Firebird) Run(migration io.Reader) error {
 func (f *Firebird) SetVersion(version int, dirty bool) error {
 	// Always re-write the schema version to prevent empty schema version
 	// for failed down migration on the first migration
-	// See: https://github.com/golang-migrate/migrate/issues/330
+	// See: https://github.com/fun/golang-migrate/migrate/issues/330
 
 	// TODO: parameterize this SQL statement
 	//       https://firebirdsql.org/refdocs/langrefupd20-execblock.html
