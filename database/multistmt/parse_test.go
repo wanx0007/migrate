@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/fun/golang-migrate/migrate/v4/database/multistmt"
+	"github.com/wanx0007/migrate/v4/database/multistmt"
 )
 
 const maxMigrationSize = 1024

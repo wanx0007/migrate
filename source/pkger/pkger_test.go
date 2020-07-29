@@ -5,11 +5,11 @@ import (
 	"os"
 	"testing"
 
-	st "github.com/fun/golang-migrate/migrate/v4/source/testing"
 	"github.com/gobuffalo/here"
 	"github.com/markbates/pkger"
 	"github.com/markbates/pkger/pkging"
 	"github.com/markbates/pkger/pkging/mem"
+	st "github.com/wanx0007/migrate/v4/source/testing"
 )
 
 func Test(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/fun/golang-migrate/migrate/v4/source/httpfs"
-	st "github.com/fun/golang-migrate/migrate/v4/source/testing"
+	"github.com/wanx0007/migrate/v4/source/httpfs"
+	st "github.com/wanx0007/migrate/v4/source/testing"
 )
 
 func TestNewOK(t *testing.T) {

@@ -12,8 +12,8 @@ import (
 )
 
 import (
-	"github.com/fun/golang-migrate/migrate/v4/source"
 	"github.com/google/go-github/github"
+	"github.com/wanx0007/migrate/v4/source"
 )
 
 func init() {

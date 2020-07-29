@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/fun/golang-migrate/migrate/v4"
-	dt "github.com/fun/golang-migrate/migrate/v4/database/testing"
-	_ "github.com/fun/golang-migrate/migrate/v4/source/file"
+	"github.com/wanx0007/migrate/v4"
+	dt "github.com/wanx0007/migrate/v4/database/testing"
+	_ "github.com/wanx0007/migrate/v4/source/file"
 	_ "modernc.org/ql/driver"
 )
 

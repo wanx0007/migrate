@@ -1,4 +1,4 @@
-module github.com/fun/golang-migrate/migrate/v4
+module github.com/wanx0007/migrate/v4
 
 require (
 	cloud.google.com/go/spanner v1.8.0
@@ -13,7 +13,7 @@ require (
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/gobuffalo/here v0.6.0
 	github.com/gocql/gocql v0.0.0-20190301043612-f6df8288f9b4
-	github.com/fun/golang-migrate/migrate/v4 v4.12.1
+	github.com/wanx0007/migrate/v4 v4.12.1
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/hashicorp/go-multierror v1.1.0
 	github.com/lib/pq v1.3.0

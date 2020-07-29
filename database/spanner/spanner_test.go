@@ -5,13 +5,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/fun/golang-migrate/migrate/v4"
+	"github.com/wanx0007/migrate/v4"
 
-	dt "github.com/fun/golang-migrate/migrate/v4/database/testing"
+	dt "github.com/wanx0007/migrate/v4/database/testing"
 
-	_ "github.com/fun/golang-migrate/migrate/v4/source/file"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	_ "github.com/wanx0007/migrate/v4/source/file"
 )
 
 func Test(t *testing.T) {

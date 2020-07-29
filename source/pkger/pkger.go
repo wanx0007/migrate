@@ -5,10 +5,10 @@ import (
 	"net/http"
 	stdurl "net/url"
 
-	"github.com/fun/golang-migrate/migrate/v4/source"
-	"github.com/fun/golang-migrate/migrate/v4/source/httpfs"
 	"github.com/markbates/pkger"
 	"github.com/markbates/pkger/pkging"
+	"github.com/wanx0007/migrate/v4/source"
+	"github.com/wanx0007/migrate/v4/source/httpfs"
 )
 
 func init() {

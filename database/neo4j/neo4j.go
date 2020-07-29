@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/fun/golang-migrate/migrate/v4/database"
-	"github.com/fun/golang-migrate/migrate/v4/database/multistmt"
 	"github.com/hashicorp/go-multierror"
 	"github.com/neo4j/neo4j-go-driver/neo4j"
+	"github.com/wanx0007/migrate/v4/database"
+	"github.com/wanx0007/migrate/v4/database/multistmt"
 )
 
 func init() {

@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fun/golang-migrate/migrate/v4"
-	"github.com/fun/golang-migrate/migrate/v4/database"
-	"github.com/fun/golang-migrate/migrate/v4/database/multistmt"
 	"github.com/hashicorp/go-multierror"
+	"github.com/wanx0007/migrate/v4"
+	"github.com/wanx0007/migrate/v4/database"
+	"github.com/wanx0007/migrate/v4/database/multistmt"
 )
 
 var (

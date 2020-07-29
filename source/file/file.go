@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/fun/golang-migrate/migrate/v4/source"
-	"github.com/fun/golang-migrate/migrate/v4/source/httpfs"
+	"github.com/wanx0007/migrate/v4/source"
+	"github.com/wanx0007/migrate/v4/source/httpfs"
 )
 
 func init() {

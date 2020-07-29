@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/fun/golang-migrate/migrate/v4"
-	"github.com/fun/golang-migrate/migrate/v4/database"
 	"github.com/hashicorp/go-multierror"
 	_ "github.com/mattn/go-sqlite3"
+	"github.com/wanx0007/migrate/v4"
+	"github.com/wanx0007/migrate/v4/database"
 )
 
 func init() {
@@ -237,7 +237,7 @@ func (m *Sqlite) SetVersion(version int, dirty bool) error {
 
 	// Also re-write the schema version for nil dirty versions to prevent
 	// empty schema version for failed down migration on the first migration
-	// See: https://github.com/fun/golang-migrate/migrate/issues/330
+	// See: https://github.com/wanx0007/migrate/issues/330
 	if version >= 0 || (version == database.NilVersion && dirty) {
 		query := fmt.Sprintf(`INSERT INTO %s (version, dirty) VALUES (?, ?)`, m.config.MigrationsTable)
 		if _, err := tx.Exec(query, version, dirty); err != nil {
