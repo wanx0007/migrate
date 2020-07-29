@@ -250,10 +250,10 @@ type bintree struct {
 }
 
 var _bintree = &bintree{nil, map[string]*bintree{
-	"1085649617_create_users_table.down.sql": &bintree{_1085649617_create_users_tableDownSql, map[string]*bintree{}},
-	"1085649617_create_users_table.up.sql":   &bintree{_1085649617_create_users_tableUpSql, map[string]*bintree{}},
-	"1185749658_add_city_to_users.down.sql":  &bintree{_1185749658_add_city_to_usersDownSql, map[string]*bintree{}},
-	"1185749658_add_city_to_users.up.sql":    &bintree{_1185749658_add_city_to_usersUpSql, map[string]*bintree{}},
+	"1085649617_create_users_table.down.sql": {_1085649617_create_users_tableDownSql, map[string]*bintree{}},
+	"1085649617_create_users_table.up.sql":   {_1085649617_create_users_tableUpSql, map[string]*bintree{}},
+	"1185749658_add_city_to_users.down.sql":  {_1185749658_add_city_to_usersDownSql, map[string]*bintree{}},
+	"1185749658_add_city_to_users.up.sql":    {_1185749658_add_city_to_usersUpSql, map[string]*bintree{}},
 }}
 
 // RestoreAsset restores an asset under the given directory
